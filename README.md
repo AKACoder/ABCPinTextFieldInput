@@ -109,6 +109,9 @@ public class ABCPinTextFieldInputConfig {
     
     //输入框的使能/禁用
     public var IsEnable: Bool {get set}
+    
+    //输入框的当前字符串
+    public var Text: String {get}
 
 ```
 
