@@ -1,8 +1,12 @@
 # ABCPinTextFieldInput
 一个简单的PIN码输入控件。  
 
+![image](https://github.com/AKACoder/ABCPinTextFieldInput/blob/master/Example/example.gif)   
+
+
 ### 关于'ABC'
 - '**ABC**' 是 '**available but chaos**' 的缩写，用以说明我的水平不是很好。  
+
 
 ### 依赖  
 **[duemunk/Async](https://github.com/duemunk/Async)**  
