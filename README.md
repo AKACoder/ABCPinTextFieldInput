@@ -45,7 +45,7 @@ public enum ABCPinMode {
     //密文文本（输后显示小圆点），未输入时，使用底部边框显示占位。参数为：底边颜色、底边宽度、底边高度
     case PasswordTextWithBottomBorder(borderColor: UIColor, borderWidth: CGFloat, borderHeight: CGFloat)
     
-    //自定义模式，需要提供 ABCPinTextFieldInputCustomDraw 类型的毁掉函数
+    //自定义模式，需要提供 ABCPinTextFieldInputCustomDraw 类型的回调函数
     case CustomMode(customDraw: ABCPinTextFieldInputCustomDraw?)
 }
 
